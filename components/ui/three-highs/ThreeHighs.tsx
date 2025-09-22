@@ -31,7 +31,7 @@ const ThreeHighs: React.FC = () => {
             }}
             className="fat-container nutrition-container"
           >
-            <img src="/pictures/fat.png" alt="Fat" />
+            <img src="pictures/fat.png" alt="Fat" />
             <div>
               <p className="header">總脂肪</p>
               <p className="measurement">
@@ -50,7 +50,7 @@ const ThreeHighs: React.FC = () => {
             }}
             className="salt-container nutrition-container"
           >
-            <img src="/pictures/salt.png" alt="Salt" />
+            <img src="pictures/salt.png" alt="Salt" />
             <div>
               <p className="header">鈉 (鹽)</p>
               <p className="measurement">
@@ -69,7 +69,7 @@ const ThreeHighs: React.FC = () => {
             }}
             className="sugar-container nutrition-container"
           >
-            <img src="/pictures/sugar.png" alt="Sugar" />
+            <img src="pictures/sugar.png" alt="Sugar" />
             <div>
               <p className="header">添加糖</p>
               <p className="measurement">

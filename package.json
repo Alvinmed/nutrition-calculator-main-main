@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "next",
     "start": "next start",
-    "build": "next build"
+    "build": "next build",
+    "export": "next export",
+    "pages:build": "set GH_PAGES=true&& next build && next export",
+    "pages:deploy": "git checkout -B gh-pages && git add out -f && git commit -m \"deploy\" || echo . && git subtree push --prefix out origin gh-pages && git checkout -"
   },
   "dependencies": {
     "@tanstack/react-query": "^4.0.10",

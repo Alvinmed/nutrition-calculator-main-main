@@ -8,15 +8,15 @@ const TipBox: React.FC = () => {
     <>
       {
         <div className="tip-container">
-          <img src="/pictures/nurse.png" alt="Nurse" className="nurse-img" />
+          <img src="pictures/nurse.png" alt="Nurse" className="nurse-img" />
           <div className="tip-box">
             <div className="triangle-right"></div>
-            <img src="/pictures/idea.png" alt="Lightbulb" className="lightbulb-img" />
+            <img src="pictures/idea.png" alt="Lightbulb" className="lightbulb-img" />
             <div className="tip-text">
               <h1>
                 飲食貼士{" "}
                 <span>
-                  <img src="/pictures/idea.png" alt="Lightbulb" />
+                  <img src="pictures/idea.png" alt="Lightbulb" />
                 </span>
               </h1>
               <p>
